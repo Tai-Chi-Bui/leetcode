@@ -1,3 +1,23 @@
+/*
+ * Problem: 479. Largest Palindrome Product
+ * 
+ * Description:
+ * Given an integer n, return the largest palindromic integer that can be represented as the product of two n-digit integers.
+ * Since the answer can be very large, return it modulo 1337.
+ * 
+ * Requirements:
+ * - Find largest palindrome that is product of two n-digit numbers
+ * - Return result modulo 1337
+ * 
+ * Example:
+ * Input: n = 2
+ * Output: 987
+ * Explanation: 99 x 91 = 9009, 9009 % 1337 = 987
+ * 
+ * Constraints:
+ * - 1 <= n <= 8
+ */
+
 class Solution {
     public int largestPalindrome(int n) {
         // https://leetcode.com/problems/largest-palindrome-product/discuss/96297/Java-Solution-using-assumed-max-palindrom

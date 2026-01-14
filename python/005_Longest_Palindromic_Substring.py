@@ -1,3 +1,26 @@
+"""
+Problem: 5. Longest Palindromic Substring
+
+Description:
+Given a string s, return the longest palindromic substring in s.
+
+Requirements:
+- Find the longest substring that is a palindrome
+- Return the substring itself (not just the length)
+
+Example:
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+
+Input: s = "cbbd"
+Output: "bb"
+
+Constraints:
+- 1 <= s.length <= 1000
+- s consist of only digits and English letters
+"""
+
 class Solution(object):
     def longestPalindrome(self, s):
         """

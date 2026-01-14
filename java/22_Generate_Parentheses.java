@@ -1,3 +1,22 @@
+/*
+ * Problem: 22. Generate Parentheses
+ * 
+ * Description:
+ * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+ * 
+ * Requirements:
+ * - Generate all well-formed parentheses combinations
+ * - n pairs of parentheses
+ * - Return list of all valid combinations
+ * 
+ * Example:
+ * Input: n = 3
+ * Output: ["((()))","(()())","(())()","()(())","()()()"]
+ * 
+ * Constraints:
+ * - 1 <= n <= 8
+ */
+
 class Solution {
   	// main function
     public List<String> generateParenthesis(int n) {

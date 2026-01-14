@@ -1,3 +1,24 @@
+/*
+ * Problem: 367. Valid Perfect Square
+ * 
+ * Description:
+ * Given a positive integer num, return true if num is a perfect square or false otherwise.
+ * A perfect square is an integer that is the square of an integer. In other words, it is the
+ * product of some integer with itself.
+ * 
+ * Requirements:
+ * - Check if a number is a perfect square
+ * - Return true if perfect square, false otherwise
+ * 
+ * Example:
+ * Input: num = 16
+ * Output: true
+ * Explanation: We return true because 4 * 4 = 16 and 4 is an integer.
+ * 
+ * Constraints:
+ * - 1 <= num <= 2^31 - 1
+ */
+
 class Solution {
     /* public boolean isPerfectSquare(int num) {
         int i = 1;

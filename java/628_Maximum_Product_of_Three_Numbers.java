@@ -1,3 +1,25 @@
+/*
+ * Problem: 628. Maximum Product of Three Numbers
+ * 
+ * Description:
+ * Given an integer array nums, find three numbers whose product is maximum and return the maximum product.
+ * 
+ * Requirements:
+ * - Find three numbers with maximum product
+ * - Return the maximum product
+ * 
+ * Example:
+ * Input: nums = [1,2,3]
+ * Output: 6
+ * 
+ * Input: nums = [1,2,3,4]
+ * Output: 24
+ * 
+ * Constraints:
+ * - 3 <= nums.length <= 10^4
+ * - -1000 <= nums[i] <= 1000
+ */
+
 public class Solution {
     /*public int maximumProduct(int[] nums) {
         Arrays.sort(nums);

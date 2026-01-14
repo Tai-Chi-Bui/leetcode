@@ -1,3 +1,24 @@
+/*
+ * Problem: 253. Meeting Rooms II
+ * 
+ * Description:
+ * Given an array of meeting time intervals intervals where intervals[i] = [starti, endi],
+ * return the minimum number of conference rooms required.
+ * 
+ * Requirements:
+ * - Find minimum number of conference rooms needed
+ * - Handle overlapping meetings
+ * - Return the minimum number of rooms
+ * 
+ * Example:
+ * Input: intervals = [[0,30],[5,10],[15,20]]
+ * Output: 2
+ * 
+ * Constraints:
+ * - 1 <= intervals.length <= 10^4
+ * - 0 <= starti < endi <= 10^6
+ */
+
 /**
  * Definition for an interval. public class Interval { int start; int end; Interval() { start = 0;
  * end = 0; } Interval(int s, int e) { start = s; end = e; } }

@@ -1,3 +1,28 @@
+/*
+ * Problem: 1189. Maximum Number of Balloons
+ * 
+ * Description:
+ * Given a string text, you want to use the characters of text to form as many instances
+ * of the word "balloon" as possible. You can use each character in text at most once.
+ * Return the maximum number of instances that can be formed.
+ * 
+ * Requirements:
+ * - Form as many instances of "balloon" as possible
+ * - Each character can be used at most once
+ * - Return the maximum number of instances
+ * 
+ * Example:
+ * Input: text = "nlaebolko"
+ * Output: 1
+ * 
+ * Input: text = "loonbalxballpoon"
+ * Output: 2
+ * 
+ * Constraints:
+ * - 1 <= text.length <= 10^4
+ * - text consists of lower case English letters only
+ */
+
 class Solution {
     public int maxNumberOfBalloons(String text) {
         HashMap<Character, Integer> map = new HashMap<>();

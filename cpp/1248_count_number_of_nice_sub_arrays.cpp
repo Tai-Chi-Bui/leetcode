@@ -1,3 +1,26 @@
+/*
+ * Problem: 1248. Count Number of Nice Subarrays
+ * 
+ * Description:
+ * Given an array of integers nums and an integer k. A subarray is called nice if there are k odd numbers on it.
+ * Return the number of nice sub-arrays.
+ * 
+ * Requirements:
+ * - A subarray is a contiguous part of an array
+ * - A nice subarray contains exactly k odd numbers
+ * - Return the total count of nice subarrays
+ * 
+ * Example:
+ * Input: nums = [1,1,2,1,1], k = 3
+ * Output: 2
+ * Explanation: The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
+ * 
+ * Constraints:
+ * - 1 <= nums.length <= 50000
+ * - 1 <= nums[i] <= 10^5
+ * - 1 <= k <= nums.length
+ */
+
 class Solution {
 public:
     int numberOfSubarrays(vector<int>& nums, int k) {

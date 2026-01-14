@@ -1,3 +1,26 @@
+/*
+ * Problem: 12. Integer to Roman
+ * 
+ * Description:
+ * Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+ * Convert an integer to a Roman numeral.
+ * 
+ * Requirements:
+ * - Convert integer to Roman numeral string
+ * - Follow standard Roman numeral rules
+ * 
+ * Example:
+ * Input: num = 3
+ * Output: "III"
+ * 
+ * Input: num = 58
+ * Output: "LVIII"
+ * Explanation: L = 50, V = 5, III = 3.
+ * 
+ * Constraints:
+ * - 1 <= num <= 3999
+ */
+
 class Solution {
 	public String intToRoman(int num) {
 		Map<Integer, String> map = new HashMap();

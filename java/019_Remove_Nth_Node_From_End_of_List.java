@@ -1,14 +1,29 @@
-/*Given a linked list, remove the n-th node from the end of list and return its head.
-
-Example:
-Given linked list: 1->2->3->4->5, and n = 2.
-After removing the second node from the end, the linked list becomes 1->2->3->5.
-
-Note:
-Given n will always be valid.
-
-Follow up:
-Could you do this in one pass?*/
+/*
+ * Problem: 19. Remove Nth Node From End of List
+ * 
+ * Description:
+ * Given the head of a linked list, remove the nth node from the end of the list and return its head.
+ * 
+ * Requirements:
+ * - Remove the nth node from the end of the linked list
+ * - Return the head of the modified list
+ * - n is always valid
+ * 
+ * Example:
+ * Input: head = [1,2,3,4,5], n = 2
+ * Output: [1,2,3,5]
+ * 
+ * Input: head = [1], n = 1
+ * Output: []
+ * 
+ * Constraints:
+ * - The number of nodes in the list is sz
+ * - 1 <= sz <= 30
+ * - 0 <= Node.val <= 100
+ * - 1 <= n <= sz
+ * 
+ * Follow up: Could you do this in one pass?
+ */
 
 /**
  * Definition for singly-linked list.

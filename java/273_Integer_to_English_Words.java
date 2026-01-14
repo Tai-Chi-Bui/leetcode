@@ -1,3 +1,25 @@
+/*
+ * Problem: 273. Integer to English Words
+ * 
+ * Description:
+ * Convert a non-negative integer num to its English words representation.
+ * 
+ * Requirements:
+ * - Convert integer to English words
+ * - Handle numbers up to billions
+ * - Return proper English representation
+ * 
+ * Example:
+ * Input: num = 123
+ * Output: "One Hundred Twenty Three"
+ * 
+ * Input: num = 12345
+ * Output: "Twelve Thousand Three Hundred Forty Five"
+ * 
+ * Constraints:
+ * - 0 <= num <= 2^31 - 1
+ */
+
 class Solution {
     // https://leetcode.com/problems/integer-to-english-words/discuss/70625/My-clean-Java-solution-very-easy-to-understand
     private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};

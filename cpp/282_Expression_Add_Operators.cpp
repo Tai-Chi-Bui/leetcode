@@ -1,3 +1,32 @@
+/*
+ * Problem: 282. Expression Add Operators
+ * 
+ * Description:
+ * Given a string num that contains only digits and an integer target, return all possibilities
+ * to insert the binary operators '+', '-', and/or '*' between the digits of num so that the
+ * resultant expression evaluates to the target value.
+ * 
+ * Requirements:
+ * - Insert operators (+, -, *) between digits
+ * - Expression must evaluate to target
+ * - Numbers cannot have leading zeros
+ * - Return all valid expressions
+ * 
+ * Example:
+ * Input: num = "123", target = 6
+ * Output: ["1*2*3","1+2+3"]
+ * Explanation: Both "1*2*3" and "1+2+3" evaluate to 6.
+ * 
+ * Input: num = "232", target = 8
+ * Output: ["2*3+2","2+3*2"]
+ * Explanation: Both "2*3+2" and "2+3*2" evaluate to 8.
+ * 
+ * Constraints:
+ * - 1 <= num.length <= 10
+ * - num consists of only digits
+ * - -2^31 <= target <= 2^31 - 1
+ */
+
 class Solution {
 public:
     vector<string> addOperators(string num, int target) {

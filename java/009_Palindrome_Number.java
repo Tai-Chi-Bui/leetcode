@@ -1,3 +1,27 @@
+/*
+ * Problem: 9. Palindrome Number
+ * 
+ * Description:
+ * Given an integer x, return true if x is a palindrome, and false otherwise.
+ * 
+ * Requirements:
+ * - Determine if an integer is a palindrome
+ * - An integer is a palindrome when it reads the same backward as forward
+ * - Negative numbers are not palindromes
+ * 
+ * Example:
+ * Input: x = 121
+ * Output: true
+ * Explanation: 121 reads as 121 from left to right and from right to left.
+ * 
+ * Input: x = -121
+ * Output: false
+ * Explanation: From left to right, it reads -121. From right to left, it becomes 121-.
+ * 
+ * Constraints:
+ * - -2^31 <= x <= 2^31 - 1
+ */
+
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) 

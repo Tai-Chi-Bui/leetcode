@@ -1,3 +1,26 @@
+/*
+ * Problem: 336. Palindrome Pairs
+ * 
+ * Description:
+ * Given a list of unique words, return all the pairs of the distinct indices (i, j) in the given list,
+ * so that the concatenation of the two words words[i] + words[j] is a palindrome.
+ * 
+ * Requirements:
+ * - Find all pairs of words that form a palindrome when concatenated
+ * - Return list of pairs of indices
+ * - Words are unique
+ * 
+ * Example:
+ * Input: words = ["abcd","dcba","lls","s","sssll"]
+ * Output: [[0,1],[1,0],[3,2],[3,4]]
+ * Explanation: The palindromes are ["dcbaabcd","abcddcba","slls","llssssll"]
+ * 
+ * Constraints:
+ * - 1 <= words.length <= 5000
+ * - 0 <= words[i].length <= 300
+ * - words[i] consists of lower-case English letters
+ */
+
 class Solution {
     //https://leetcode.com/problems/palindrome-pairs/discuss/79195/O(n-*-k2)-java-solution-with-Trie-structure
     private static class TrieNode {
